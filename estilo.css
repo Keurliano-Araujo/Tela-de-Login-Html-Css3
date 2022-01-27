@@ -1,0 +1,58 @@
+body{
+	background-image: linear-gradient(45deg, #3104B4,#151515);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+
+h1{
+	color: white;	
+}
+
+input{
+	padding: 15px;
+	border: none;
+	outline: none;
+}
+
+input:hover{
+	background-color: #2E2EFE;
+	transition: 0.7s;
+}
+
+button{
+	padding: 15px;
+	width: 100%;
+	border: none;
+	background-color:#642EFE;
+	border-radius: 15px;
+	color: white;
+	font-size: 15px;
+}
+
+button:hover{
+	background-color: #9A2EFE;
+
+	transition:1s;
+
+	/*Muda da seta para a mão*/
+	cursor: pointer;
+}
+
+.principal{
+	text-align: center;
+	background-color: rgba(0, 0, 0, 0.7);
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	/*Deixa o conteúdo alinhado ao meio da tela*/
+	transform: translate(-50%, -50%);
+	padding: 80px;
+	border-radius: 20px;
+
+}
+
+#icon{
+	width: 100px;
+	height: 100px;
+}
